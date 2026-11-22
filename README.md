@@ -12,6 +12,59 @@ This repository presents the **portfolio architecture and user experience** of t
 
 ---
 
+## Application Preview
+
+These screenshots illustrate how the assistant provides conversational career support, structured assessment feedback, and practical guidance for CHW-related employment.
+
+### Assistant Welcome Screen
+
+![NVCHWA Career Readiness Assistant welcome interface](screenshots/01_assistant_home.png)
+
+*Students can begin the Career Readiness Assessment or select another career-support pathway without completing the assessment first.*
+
+### Career Readiness Report
+
+![Example Career Readiness Report with section scores and readiness level](screenshots/04_readiness_assessment.png)
+
+*An example report presents a Career Readiness Index, readiness level, career pathway, and five assessment-domain results.*
+
+### Job-Fit Guidance
+
+![Job-posting review showing qualifications, applicant background and assessment](screenshots/08_job_fit_guidance.png)
+
+*The assistant compares job requirements with the information provided by a user, distinguishing demonstrated qualifications from requirements not yet met or verified.*
+
+<details>
+<summary>Explore six additional screenshots of the assistant</summary>
+
+#### Transferable-Skills Identification
+
+![Translating transferable experience into CHW-relevant skills](screenshots/02_transferable_skills.png)
+
+#### Transferable-Skills Guidance
+
+![Options for describing transferable skills accurately](screenshots/03_transferable_skills_options.png)
+
+#### Career Development Priorities
+
+![Career Readiness Report with priority development areas and roles to explore](screenshots/05_readiness_assessment_priority%20areas.png)
+
+#### Resume Support
+
+![Resume assistance highlighting relevant existing strengths and credentials](screenshots/06_resume_support.png)
+
+#### CHW-Aligned Career Exploration
+
+![Comparison of CHW-related positions and background fit](screenshots/07_resume_support_CHW_related_positions.png)
+
+#### Job-Fit Recommendation
+
+![Guidance about whether to apply to a CHW-related position](screenshots/09_job_fit_guidance_candidate_fitpng.png)
+
+</details>
+
+---
+
 ## What the Assistant Supports
 
 The assistant provides several student-facing career-support pathways:
@@ -174,7 +227,7 @@ Defines standards for resume support, transferable skills, job search, job-posti
 
 A portfolio-safe overview of this architecture is included in:
 
-`NVCHWA_Career_Readiness_Assistant_Knowledge_and_System_Architecture.pdf`
+[`NVCHWA_Career_Readiness_Assistant_Knowledge_and_System_Architecture.pdf`](documentation/NVCHWA_Career_Readiness_Assistant_Knowledge_and_System_Architecture.pdf)
 
 ---
 
@@ -468,9 +521,28 @@ Corrections introduced:
 
 This public repository contains portfolio documentation rather than the complete production configuration.
 
+### Repository Structure
+
+```text
+nvchwa-career-readiness-assistant/
+├── documentation/
+│   └── NVCHWA_Career_Readiness_Assistant_Knowledge_and_System_Architecture.pdf
+├── screenshots/
+│   ├── 01_assistant_home.png
+│   ├── 02_transferable_skills.png
+│   ├── 03_transferable_skills_options.png
+│   ├── 04_readiness_assessment.png
+│   ├── 05_readiness_assessment_priority areas.png
+│   ├── 06_resume_support.png
+│   ├── 07_resume_support_CHW_related_positions.png
+│   ├── 08_job_fit_guidance.png
+│   └── 09_job_fit_guidance_candidate_fitpng.png
+└── README.md
+```
+
 ### Knowledge & System Architecture
 
-`NVCHWA_Career_Readiness_Assistant_Knowledge_and_System_Architecture.pdf`
+`documentation/NVCHWA_Career_Readiness_Assistant_Knowledge_and_System_Architecture.pdf`
 
 Provides a portfolio-safe overview of:
 
@@ -487,16 +559,9 @@ Provides a portfolio-safe overview of:
 
 ### Interface Screenshots
 
-The repository also includes labeled screenshots showing the live user experience, including examples of:
+Nine labeled screenshots are organized in the [`screenshots/`](screenshots/) folder. The **Application Preview** near the top of this README displays the welcome screen, a completed readiness report, a job-fit assessment, and an expandable gallery of six additional career-support interactions.
 
-- Assistant landing page
-- Student entry pathways
-- Transferable-skills guidance
-- Interactive career-support options
-- Assessment interactions
-- Other student-facing workflows
-
-The screenshots demonstrate how the underlying architecture is translated into an accessible conversational experience.
+These examples illustrate how the underlying architecture is translated into an accessible conversational experience.
 
 ---
 
@@ -535,7 +600,7 @@ The deployed assistant includes:
 
 ---
 
-## Project Purpose
+## Project Significance
 
 This project demonstrates applied experience in:
 
@@ -600,3 +665,16 @@ It does not replace:
 - Professional career counseling when additional individualized support is required
 
 Its purpose is to help users convert their actual training, experience, skills, and goals into clearer and more realistic pathways toward CHW and CHW-aligned employment.
+
+---
+
+**Project Type:** Applied AI & CHW Workforce Development Portfolio Project  
+**Technologies & Methods:** ChatGPT, Structured Knowledge Architecture, Prompt Engineering, Branching Assessment Logic, Rule-Based Scoring, Regression Testing  
+**Primary Audience:** Current and Former NVCHWA Students  
+**Data Classification:** Fictional Student Test Profiles / Portfolio Demonstration  
+**Implementation:** Conversational AI Career Readiness Assistant  
+**Project Status:** Validated Prototype Complete  
+**Repository Scope:** Public Architecture, Interface Screenshots, and Validation Documentation (Production Configuration Not Included)  
+
+**Developed by Glahnnia "Renee" Rates, MSHS, CCHW II**  
+Public Health Informatics | Applied AI | Workforce Development | Data Analytics
